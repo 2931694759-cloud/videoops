@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-app: #ffffff;
+  --color-sidebar: #f4f4f5;
+  --color-card: #ffffff;
+  --color-card-hover: #fafafa;
+  --color-input: #f4f4f5;
+  --color-form-bg: #f4f4f5;
+  --color-border: #e5e5e8;
+  --color-border-hover: #d0d0d6;
+  --color-text-1: #18181b;
+  --color-text-2: #52525b;
+  --color-text-3: #a1a1aa;
+  --color-accent: #5e6ad2;
+  --color-accent-bg: #ededfd;
+  --color-accent-text: #5e6ad2;
+
+  --color-green: #16a34a;
+  --color-green-bg: rgba(22,163,74,0.08);
+  --color-amber: #ea580c;
+  --color-amber-bg: rgba(234,88,12,0.08);
+  --color-red: #dc2626;
+  --color-red-bg: rgba(220,38,38,0.08);
+  --color-blue: #2563eb;
+  --color-blue-bg: rgba(37,99,235,0.08);
+  --color-pink: #db2777;
+  --color-pink-bg: rgba(219,39,119,0.08);
+}
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: 'Inter', 'Helvetica Neue', 'PingFang SC', 'Noto Sans SC', sans-serif;
+  background: #f5f5f7;
+  color: #1a1a2e;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.14);
+}
+ 
+input, textarea, select {
+  font-family: inherit;
+}
+ 
+::selection {
+  background: rgba(231, 76, 60, 0.2);
+}
