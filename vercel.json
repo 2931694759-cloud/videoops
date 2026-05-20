@@ -5,5 +5,7 @@
       "src": "videoops/videoops/package.json",
       "use": "@vercel/next"
     }
-  ]
+  ],
+  "installCommand": "cd videoops/videoops && npm install",
+  "buildCommand": "cd videoops/videoops && npm run build"
 }
